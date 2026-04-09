@@ -10,4 +10,5 @@ function validaca() {
     let estado = document.getElementById("estado").value;
 
 
+    if (idade < 16) return alert("Deve ser maior de 16 anos")
 }
