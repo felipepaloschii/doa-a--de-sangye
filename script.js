@@ -1,6 +1,4 @@
-function validacao(){ 
-
-document.getElementById("FormDoacao").addEventListener("submit"), function (validacao) {
+document.getElementById("FormDoacao").addEventListener("submit"), function (e) {
     e.preventDefault();
 
     let nome = document.getElementById("nome").value.trim();
@@ -20,5 +18,4 @@ document.getElementById("FormDoacao").addEventListener("submit"), function (vali
     if (idade < 16) return alert("Deve ser maior de 16 anos");
     if (peso < 50) return alert("Você deve ter mais de 50kg");
 
-}
 }
